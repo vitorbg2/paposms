@@ -1,6 +1,6 @@
 {
   "name": "paposms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Biblioteca para utilizar os serviços da PapoSMS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
