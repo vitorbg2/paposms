@@ -14,6 +14,10 @@
     "preversion": "npm run lint",
     "version": "npm run format && git add ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitorbg2/paposms.git"
+  },
   "keywords": [
     "paposms",
     "sms",
@@ -24,7 +28,7 @@
     "lib/**/*"
   ],
   "author": "Vitor Mendonça Cunha",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "qs": "^6.9.3"
@@ -34,5 +38,9 @@
     "tslint": "^6.1.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
-  }
+  },
+  "bugs" : {
+    "url" : "https://github.com/vitorbg2/paposms/issues"
+  },
+  "homepage" : "https://github.com/vitorbg2/paposms/blob/master/README.md"
 }
