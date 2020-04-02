@@ -1,6 +1,6 @@
 {
   "name": "paposms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biblioteca para utilizar os serviços da PapoSMS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -39,8 +39,8 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
   },
-  "bugs" : {
-    "url" : "https://github.com/vitorbg2/paposms/issues"
+  "bugs": {
+    "url": "https://github.com/vitorbg2/paposms/issues"
   },
-  "homepage" : "https://github.com/vitorbg2/paposms/blob/master/README.md"
+  "homepage": "https://github.com/vitorbg2/paposms/blob/master/README.md"
 }
