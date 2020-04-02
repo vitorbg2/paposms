@@ -33,6 +33,8 @@ sms.send(["22987654321"], "Teste npm 4")
 
 <b>sms.send(numeros: string[], mensagem: string, data?: Date)</b>
 
-*numeros - Array*: Deve ser digitado os números de telefone celular para ser o destino da mensagem.
-*mensagem - String*: Deve ser digitado o texto o qual será enviado para o(s) número(s) do parâmetro numeros.
-*data (Opcional) - Date*: Deve ser digitada a data de agendamento, para o envio do SMS. Se esse parâmetro não for passado, a hora de agendamento será a do servidor
+- *numeros - Array*: Deve ser digitado os números de telefone celular para ser o destino da mensagem.
+
+- *mensagem - String*: Deve ser digitado o texto o qual será enviado para o(s) número(s) do parâmetro numeros.
+
+- *data (Opcional) - Date*: Deve ser digitada a data de agendamento, para o envio do SMS. Se esse parâmetro não for passado, a hora de agendamento será a do servidor.
