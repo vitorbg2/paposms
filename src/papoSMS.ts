@@ -3,8 +3,8 @@ import qs = require('querystring');
 import { formatData } from './utils/formatData';
 
 class PapoSMS {
-  user: string;
-  password: string;
+  private user: string;
+  private password: string;
 
   // Esta é uma biblioteca não oficial para consumir o webservice da papoSMS, que realiza envio de sms através do seu webservice
   // Para mais informações ou mudanças repentinas no webservice da papoSMS, visite: https://www.paposms.com/desenvolvedores
